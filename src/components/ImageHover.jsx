@@ -1,4 +1,10 @@
 import { useEffect, useState } from "react";
+import image1 from "./images/image1.jpg";
+import image2 from "./images/image2.jpg";
+import image3 from "./images/image3.jpg";
+import image4 from "./images/image4.jpg";
+import image5 from "./images/image5.jpg";
+import image6 from "./images/image6.jpg";
 
 export default function ImageHover() {
   const [active, setActive] = useState(1);
@@ -6,32 +12,32 @@ export default function ImageHover() {
   const imageContent = [
     {
       id: 1,
-      link: "https://source.unsplash.com/n5f0INq5uKI",
+      link: image1,
       desc: "Nature Image",
     },
     {
       id: 2,
-      link: "https://source.unsplash.com/LQsbnHpJ0z4",
+      link: image2,
       desc: "Nature Image",
     },
     {
       id: 3,
-      link: "https://source.unsplash.com/9MqLBJvQAL8",
+      link: image3,
       desc: "Nature Image",
     },
     {
       id: 4,
-      link: "https://source.unsplash.com/py8omnp-hko",
+      link: image4,
       desc: "Nature Image",
     },
     {
       id: 5,
-      link: "https://source.unsplash.com/gOQMwGlYe2I",
+      link: image5,
       desc: "Nature Image",
     },
     {
       id: 6,
-      link: "https://source.unsplash.com/45sn7w7Hs2I",
+      link: image6,
       desc: "Nature Image",
     },
   ];
